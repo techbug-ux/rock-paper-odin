@@ -15,9 +15,15 @@ console.log(getComputerChoice(3))
 function getHumanChoice() {
     choice = prompt("Rock, paper, scissors?");
     console.log(choice);
+    return choice;
 }
 
 getHumanChoice();
 
 let humanScore = 0;
 let computerScore = 0;
+
+function playRound (humanChoice, computerChoice) {
+    let humanChoice = getHumanChoice().trim().toLowerCase();
+    let computerChoice = getComputerChoice();
+}
