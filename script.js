@@ -30,3 +30,7 @@ function getHumanChoice() {
 }
 // TESTING WITH CONSOLE TO SEE IF humanchoice function works 
 console.log("Human Choice " + getHumanChoice());
+
+//Collecting scores
+let humanScore = 0;
+let computerScore = 0;
