@@ -20,4 +20,13 @@ function getComputerChoice() {
 }
 
 //testing with console log for function getComputerChoice
-console.log(getComputerChoice());
+console.log("Computer Choice " + getComputerChoice());
+
+//human choice then return there choice
+function getHumanChoice() {
+    choice = prompt("Rock, paper or Scissors?");
+    choiceFixed = choice.trim().toLowerCase();
+    return choiceFixed;
+}
+// TESTING WITH CONSOLE TO SEE IF humanchoice function works 
+console.log("Human Choice " + getHumanChoice());
